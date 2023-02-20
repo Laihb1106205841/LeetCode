@@ -5,7 +5,6 @@ public class No14 {
         String longest ="";
         String first =strs[0];
         char[] fir =first.toCharArray();
-        int l = strs.length;
 
         for(int i=0;i<first.length()+1;i++){
             String prefix ="";
@@ -13,8 +12,11 @@ public class No14 {
                 prefix =prefix+ fir[m];
             }
             boolean IsLongest =true;
-            for(int j=0;j<l;j++){
-               if(strs[j].indexOf(prefix)!=0){IsLongest=false;break;}
+            for (String str : strs) {
+                if (str.indexOf(prefix) != 0) {
+                    IsLongest = false;
+                    break;
+                }
             }
             if(IsLongest){longest=prefix;}
         }
