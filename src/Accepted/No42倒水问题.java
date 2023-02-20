@@ -1,6 +1,6 @@
 package Accepted;
 
-public class No42 {
+public class No42倒水问题 {
     public int trap(int[] height) {
 
         int l =height.length;

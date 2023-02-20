@@ -1,6 +1,6 @@
 package Accepted;
 
-public class No66 {
+public class No66进位问题 {
     public int[] plusOne(int[] digits) {
 
         for(int i=0;i<digits.length;i++){

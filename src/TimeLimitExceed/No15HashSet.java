@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class No15 {
+public class No15HashSet {
     public List<List<Integer>> threeSum(int[] nums) {
         int l =nums.length;
         List<List<Integer>> S =new ArrayList<>();
