@@ -13,8 +13,8 @@ public class No09 {
 
     }
 
-    public static void main(String[] args) {
-        No09 s =new No09();
-        s.isPalindrome(1234);
-    }
+//    public static void main(String[] args) {
+//        No09 s =new No09();
+//        s.isPalindrome(1234);
+//    }
 }
