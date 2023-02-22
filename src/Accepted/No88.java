@@ -15,5 +15,11 @@ public class No88 {
         for(int i=0;i<m+n;i++){
             nums1[i]=F[i];
         }
+
+    }
+
+    public static void main(String[] args) {
+        double j =10034543.066;
+        System.out.printf("55,%.2f",j);
     }
 }
