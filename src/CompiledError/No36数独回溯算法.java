@@ -1,9 +1,20 @@
 package CompiledError;
 
+import java.util.HashSet;
+
 public class No36数独回溯算法 {
     public boolean isValidSudoku(char[][] board) {
-        //backtracking(board);
-        return false;
+
+        HashSet<Character> Row =new HashSet<>();
+        HashSet<Character> Col =new HashSet<>();
+        HashSet<Character> Cube=new HashSet<>();
+
+
+
+        //使用HashSet
+
+
+        return true;
     }
 }
 //class Solution {
